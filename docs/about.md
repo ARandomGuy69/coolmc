@@ -5,14 +5,14 @@ navname: About
 
 # {{ site.serverName }}
 
-Moonrise is a simple, flexible template website for Minecraft servers.
+CoolMCGames is a server network with 2 gamemodes (Duping Survival & Factions) that is constantly expanding. 
 
-[GitHub](https://github.com/coffeebank/moonrise)
+[Discord](https://dsg.gg/coolmc)
 
 
 # Terms of Use
 
-Moonrise MC is free for use [under the MIT license](https://github.com/coffeebank/moonrise).
+You are not to Copy, Re-sell or re-distribute the files of this website.
 
 
 # Privacy Policy
