@@ -11,7 +11,7 @@ navname: Media
 
 <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
 {% for image in site.static_files %}
-{% if image.path contains 'screenshots/' %}
+{% if image.path contains 'media/' %}
 <div data-micromodal-trigger="{{ image.name }}" class="cursor-pointer transition-shadow duration-200 hover:shadow-lg">
 <img class="object-cover w-full h-32 md:h-48 rounded-lg" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 </div>
@@ -21,7 +21,7 @@ navname: Media
 </div>
 
 {% for image2 in site.static_files %}
-{% if image2.path contains 'screenshots/' %}
+{% if image2.path contains 'media/' %}
 <div class="modal micromodal-slide" id="{{ image2.name }}" aria-hidden="true">
 <div class="modal__overlay" tabindex="-1" data-micromodal-close>
 <img src="{{ site.baseurl }}{{ image2.path }}" style="max-width:90%;max-height:90vh;" alt="image"  role="dialog" aria-modal="true" aria-labelledby="{{ image2.name }}-title"/>
